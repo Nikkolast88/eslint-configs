@@ -1,0 +1,25 @@
+{
+  "name": "@uni-daily/eslint-config-monorepo",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikkolast88/eslint-config.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nikkolast88/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Nikkolast88/eslint-config#readme",
+  "devDependencies": {
+    "changelogen": "^0.4.0",
+    "eslint": "^8.29.0",
+    "prettier": "^2.8.1"
+  }
+}
