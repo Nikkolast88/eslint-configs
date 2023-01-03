@@ -39,7 +39,7 @@ module.exports = {
     'import/no-named-as-default': 'off',
     'import/no-named-as-default-member': 'off',
 
-    quotes: ['error', 'single'] // 强制使用单引号
+    quotes: ['error', 'single'], // 强制使用单引号
 
     //off
     '@typescript-eslint/no-non-null-assertion': 'off'
