@@ -20,6 +20,7 @@
   "dependencies": {
     "@uni-daily/eslint-config-base": "workspace:*",
     "@uni-daily/eslint-config-typescript": "workspace:*",
-    "eslint-plugin-vue": "^9.8.0"
+    "eslint-plugin-vue": "^9.8.0",
+    "local-pkg": "^0.4.2"
   }
 }

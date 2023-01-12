@@ -1,8 +1,9 @@
+const { isPackageExists } = require('local-pkg')
+const TS = isPackageExists('typescript')
 module.exports = {
   extends: [
     'plugin:vue/vue3-recommended',
-    '@uni-daily/eslint-config-base',
-    '@uni-daily/eslint-config-typescript'
+    TS ? '@uni-daily/eslint-config-typescript' : '@uni-daily/eslint-config-base'
   ],
   overrides: [
     {

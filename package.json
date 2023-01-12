@@ -21,7 +21,10 @@
   "devDependencies": {
     "bumpp": "^8.2.1",
     "changelogen": "^0.4.0",
-    "eslint": "^8.29.0",
-    "prettier": "^2.8.1"
+    "eslint": "^8.31.0",
+    "prettier": "^2.8.2"
+  },
+  "dependencies": {
+    "@uni-daily/eslint-config-monorepo": "^0.0.3"
   }
 }
